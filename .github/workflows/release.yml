@@ -20,7 +20,7 @@ jobs:
       dockerfile_path: Dockerfile
       base_image: ubuntu:24.04
       model: generic
-      arch: aarch64
+      arch: arm64
       kubernetes_distro: k3s
       kubernetes_version: auto
       version: auto
